@@ -1,7 +1,6 @@
 import React from "react";
 import "./card.css";
 import { useState } from "react";
-import { useEffect } from "react";
 
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import FavoriteIcon from "@material-ui/icons/Favorite";
@@ -13,16 +12,11 @@ const CardItem = ({
   maleImage,
   id,
   onViewExercise,
-  // obj,
 }) => {
-  const [like, setLike] = useState(false);
-
-  useEffect(() => {
-    setData();
-    getData();
-  });
+  const [like, setLike] = useState(true);
 
   const setData = () => {
+    setLike(!like);
     let obj = {
       key: id,
       genderToggle: genderToggle,
@@ -32,15 +26,17 @@ const CardItem = ({
       id: id,
       onViewExercise: onViewExercise,
     };
-
-    localStorage.setItem(like, JSON.stringify(obj));
+    const arr = [];
+    if(like){
+      arr.push(obj)
+      const exercises = JSON.parse(localStorage.getItem('like')) || [];
+      const favorites = like ? [...exercises, obj] : exercises.filter((e) => {
+        return e.id !== obj.id;
+      })
+      localStorage.setItem('like', JSON.stringify(favorites));
+    }
   };
 
-  const getData = () => {
-    let data = localStorage.getItem(like);
-    data = JSON.parse(data);
-    console.log(data.name);
-  };
   return (
     <div className="card-item-wrapper">
       <img
@@ -58,37 +54,12 @@ const CardItem = ({
         </button>
         <button
           className="like"
-          onClick={() => setLike((prevLike) => !prevLike)}
+          onClick={() => setData()}
         >
-          {like ? <FavoriteIcon /> : <FavoriteBorderIcon />}
+          {like ? <FavoriteBorderIcon /> : <FavoriteIcon />}
         </button>
       </div>
     </div>
   );
 };
 export default CardItem;
-
-// useEffect(() => {
-//   const checkIfExisted = (exercises) => {
-//     let flag = false;
-//     exercises.forEach((favorite) => {
-//       if (favorite.id === obj.id) {
-//         flag = true;
-//       }
-//     })
-//     return flag;
-//   }
-//   const exercises = JSON.parse(localStorage.getItem('favoriteUserList')) || [];
-//   if (!checkIfExisted(exercises)) {
-//     setLike(false);
-//   }
-// }, [obj])
-
-// const toggleFavorite = () => {
-//   setLike(!like);
-//   const favoriteStorage = JSON.parse(localStorage.getItem('favoriteUserList')) || [];
-//   const addFavoriteName = !like ? [...favoriteStorage, obj] : favoriteStorage.filter((object) => {
-//     return object.id !== obj.id
-//   });
-//   localStorage.setItem('favoriteUserList', JSON.stringify(addFavoriteName));
-// }
