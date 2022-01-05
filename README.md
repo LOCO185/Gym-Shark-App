@@ -22,8 +22,8 @@ https://user-images.githubusercontent.com/92999316/148304250-7b101f74-378d-42e5-
 ## This is how Home Page looks like :
 ![Home](https://user-images.githubusercontent.com/92999316/148304460-47d15452-c198-4129-8f5c-a57be3eff672.png)
 
-# Project Funcions
-# I used multiple Components in this project
+## Project Funcions
+### I used multiple Components in this project
 
 
 ## How To Login and Use The App :
@@ -34,4 +34,4 @@ https://user-images.githubusercontent.com/92999316/148304250-7b101f74-378d-42e5-
 
 ## Project link
 
-[Dice-Game-Project](https://gym-shark-app-by-jawad.netlify.app/)
+[Gym-Shark-App-By-Jawad](https://gym-shark-app-by-jawad.netlify.app/)
