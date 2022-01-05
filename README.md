@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Gym Shark App
+### This is my Mid Project at Fullstack Bootcamp Full Responsive.
+## Things I Learned in This Project : 
+1. Working with API's.
+2. Working with React-Routs.
+3. Working with Local Storage.
+4. Working with CRUD.
+5. Working with Material UI, Material MUI for the first time.
+6. Working with Firebase and Authentication Login for the first time.
+7. Working with Styled Components for the first time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project wireframe
+## I used Figma to draw the project at first and thats what i got
 
-## Available Scripts
+https://user-images.githubusercontent.com/92999316/148304250-7b101f74-378d-42e5-a8d5-157225e948d7.mp4
 
-In the project directory, you can run:
+# Project Pages
+## This is how Sign In Page looks like :
+![Sign-in](https://user-images.githubusercontent.com/92999316/148304408-d7c43752-ef22-47cd-80ea-74d88a380d79.png)
+## This is how Sign Up Page looks like :
+![Sign-up](https://user-images.githubusercontent.com/92999316/148304428-6953a20c-5b69-4b9a-9347-4dccfe6de9d6.png)
+## This is how Home Page looks like :
+![Home](https://user-images.githubusercontent.com/92999316/148304460-47d15452-c198-4129-8f5c-a57be3eff672.png)
 
-### `npm start`
+# Project Funcions
+# I used multiple Components in this project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How To Login and Use The App :
+### Sign In With Valid Email and Password.
+### Sign Up With Valid Email and Password.
+### Browse the Home Page , pick a category men's or women's browse and check the instruction of every workout, and how to it in a good form.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project link
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Dice-Game-Project](https://gym-shark-app-by-jawad.netlify.app/)
