@@ -1,0 +1,61 @@
+.card-item-wrapper {
+  width: 350px;
+  padding: 1.5rem;
+  flex-flow: column;
+  margin: 2rem;
+}
+
+.card-item-wrapper img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.card-item-content {
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.card-item-content h3 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.card-item-content a {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.card-item-content a:visited {
+  color: #000000;
+}
+
+.card-item-content a:hover {
+  text-decoration: underline;
+}
+
+.card-button {
+  padding: 1rem 2rem;
+  background: #000000;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card-data-loading {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+h4 {
+  display: inline-block;
+}
+.like {
+  font-size: 11px;
+  background-color: white;
+  border: none;
+  /* border-radius: 6px; */
+  transform: translateX(50px);
+}

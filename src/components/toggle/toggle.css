@@ -1,0 +1,24 @@
+.toggle-container {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.toggle-container button {
+  font-size: 1.6rem;
+  padding: 2rem;
+  background: transparent;
+  color: white;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  border: solid 1px white;
+  width: 150px;
+}
+
+.toggle-container button:hover {
+  cursor: pointer;
+}
+
+.toggle-container button.selected {
+  background-color: #ffffff;
+  color: #000;
+}

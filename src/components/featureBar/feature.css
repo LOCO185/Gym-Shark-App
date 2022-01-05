@@ -1,0 +1,18 @@
+.feature-container {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  padding: 10rem 0 10rem 0;
+}
+
+.feature-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.feature-container h3 {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 100;
+}

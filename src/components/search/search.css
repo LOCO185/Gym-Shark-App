@@ -1,0 +1,12 @@
+.feature-container {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  /* padding: 10rem 0 10rem 0; */
+}
+
+.feature-container form {
+  font-size: 3rem;
+  /* margin-bottom: 2.5rem; */
+}

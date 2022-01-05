@@ -1,0 +1,14 @@
+.footer-container {
+  background-color: #000000;
+  height: 80px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 365px) {
+  h3 {
+    font-size: 1rem;
+  }
+}

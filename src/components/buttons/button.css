@@ -1,0 +1,19 @@
+a.button {
+  width: 250px;
+  padding: 2rem;
+  background-color: transparent;
+  border: 1px #ffffff solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+a.button:hover {
+  background-color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: #000000;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400;700&display=swap");
+
+:root {
+  --brand-white: #ffffff;
+  --brand-black: #000000;
+  --brand-grey: rgb(235, 235, 235);
+  --brand-font-primary: "Montserrat", Helvetica, Arial, sans-serif;
+  --brand-font-secondary: "Roboto", Helvetica, Arial, sans-serif;
+  --fs-home: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: var(--fs-home);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--brand-font-primary);
+}
+
+a {
+  font-family: var(--brand-font-secondary);
+}
+
+b,
+strong {
+  font-family: var(--brand-font-secondary);
+  font-weight: 700;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--brand-grey);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container h2 {
+  font-size: 2rem;
+}
+
+.error-message-container {
+  padding-top: 300px;
+  height: 100vh;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+}
