@@ -17,6 +17,7 @@ const CardItem = ({
 
   const [like, setLike] = useState(false);
 
+
   // useEffect(() => {
   //   const checkIfExisted = (favoriteStorage) => {
   //     let flag = false;
