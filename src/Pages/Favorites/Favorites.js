@@ -7,7 +7,7 @@ import "./Favorites.css";
 // import { Flex } from "../../components/styles/Flex.styled";
 
 export default function Favorite() {
-    // const favoriteObjs = JSON.parse(localStorage.getItem("favoriteUserList"));
+    // const favoriteObjs = JSON.parse(localStorage.getItem("exercises"));
   return (
     <div className="favorites-page">
         <Nav />
@@ -19,7 +19,7 @@ export default function Favorite() {
                 <CardItem
                   key={favorite.id}
                   title={favorite.name}
-                  image={favorite.image}
+                  image={favorite.female.image}
                   id={favorite.id}
                   obj={favorite}
                 />
