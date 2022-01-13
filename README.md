@@ -31,6 +31,10 @@ https://user-images.githubusercontent.com/92999316/148304250-7b101f74-378d-42e5-
 ### 2.Sign Up With Valid Email and Password.
 ### 3.Browse the Home Page , pick a category men's or women's browse and check the instruction of every workout, and how to it in a good form.
 
+## Future plans for this project :
+### 1.adding favorites page with local storage.
+### 2.adding feature page.
+### 3.adding time and duration to your favorite workout's.
 
 ## Project link
 
