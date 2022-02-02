@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/92999316/148304250-7b101f74-378d-42e5-
 ## How To Login and Use The App :
 ### 1.Sign In With Valid Email and Password.
 ### 2.Sign Up With Valid Email and Password.
-### 3.Browse the Home Page , pick a category men's or women's browse and check the instruction of every workout, and how to it in a good form.
+### 3.Browse the Home Page , pick a category men's or women's browse and check the instruction of every workout, and how to do it in a good form.
 
 ## Future plans for this project :
 ### 1.adding favorites page with local storage.
