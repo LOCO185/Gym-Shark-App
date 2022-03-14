@@ -1,5 +1,5 @@
 # Gym Shark App
-### This is my Mid Project at Fullstack Bootcamp Full Responsive.
+### This is my Mid Project at Fullstack Bootcamp Mobile Friendly.
 ## Things I Learned in This Project : 
 1. Working with API's.
 2. Working with React-Routs.
